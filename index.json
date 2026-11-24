@@ -4239,6 +4239,54 @@
       ]
     },
     {
+      "key": "teamorouter",
+      "name": "TeamoRouter",
+      "icon": "text:TR",
+      "website": "https://teamorouter.com",
+      "description": {
+        "en": "TeamoRouter: GPT, Claude, Gemini, DeepSeek, GLM, Kimi and more on one key",
+        "zh": "TeamoRouter：一个密钥接入 GPT、Claude、Gemini、DeepSeek、GLM 等模型"
+      },
+      "routes": [],
+      "usageSchema": null,
+      "usageExamples": null,
+      "usageProfiles": null,
+      "task": false,
+      "provider": true,
+      "transform": false,
+      "latest": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "path": "plugins/tasks/teamorouter/1.0.0/plugin.js",
+          "sha256": "f202ac495575e3c6032532fbf4c6207e30ae7d575cfb412cb0750cfa29d4d75d",
+          "minApiVersion": 1,
+          "kind": "task",
+          "baseUrl": "https://api.teamorouter.com",
+          "readme": {
+            "path": "plugins/tasks/teamorouter/README.md",
+            "sha256": "0ecd97fc04b34e1d9f3d7a9fcbfc8e630b452aa1521782100db6ad24a417ce68",
+            "translations": {
+              "zh-CN": {
+                "path": "plugins/tasks/teamorouter/README.zh-CN.md",
+                "sha256": "64cc14fd990ae5a81a614ef846472720f72a3e37f870b7468cc38d5bb53301e7"
+              }
+            }
+          },
+          "changelog": {
+            "path": "plugins/tasks/teamorouter/1.0.0/CHANGELOG.md",
+            "sha256": "3af08b3f4496579f999e11dc8a8d0ac5e4214fd31a3fdf18aa340c9c6089af09",
+            "translations": {
+              "zh-CN": {
+                "path": "plugins/tasks/teamorouter/1.0.0/CHANGELOG.zh-CN.md",
+                "sha256": "c5dc20151d740caadc13896980a66038184fde1b0274da982ac381963a58ef44"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
       "key": "typesafe",
       "name": "TypeSafe",
       "icon": "text:TS",
